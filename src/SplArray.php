@@ -72,5 +72,10 @@ class SplArray extends \ArrayObject
         return $this;
     }
 
+    function merge(array $data)
+    {
+        return $this->loadArray($data + $this->getArrayCopy());
+    }
+
 
 }

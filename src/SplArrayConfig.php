@@ -32,4 +32,10 @@ class SplArrayConfig extends AbstractConfig
         $this->splArray->loadArray($array);
         return true;
     }
+
+    function merge(array $array): bool
+    {
+        $this->splArray->merge($array);
+        return true;
+    }
 }
