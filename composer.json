@@ -8,7 +8,7 @@
     {"name": "sqk", "email": "601307105@qq.com"}
   ],
   "require": {
-    "php": ">=7.1.0",
+    "php": ">=7.2.0",
     "ext-json": "*"
   },
   "require-dev": {
